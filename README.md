@@ -11,7 +11,7 @@ The system follows a **microservices architecture**, where each module handles a
 
 | Service | Description | Port |
 |----------|--------------|------|
-| **API Gateway** | Routes client requests to the appropriate microservice and secures them via Keycloak. | `8080` |
+| **API Gateway** | Routes client requests to the appropriate microservice and secures them via Keycloak. | `8090` |
 | **Inventory Service** | Manages events and ticket availability. | `8081` |
 | **Booking Service** | Handles ticket reservations and booking operations. | `8082` |
 | **Keycloak** | Authentication and authorization server (OpenID Connect). | `9090` |
